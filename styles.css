@@ -1,3 +1,9 @@
+#home, #lanca, #product, #comment{
+    padding: 0;
+    top: 0;
+    scroll-margin-top:140px ;
+
+}
 * {
     box-sizing: border-box;
     padding: 0;
