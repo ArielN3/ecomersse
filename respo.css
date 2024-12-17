@@ -1,0 +1,76 @@
+@media (max-width: 769px) {
+    .logo{
+        font-size: 3rem;
+    }
+    .menu-button{
+        display: block;
+    }
+    nav{
+        
+        display: none;
+        background-color: none;
+        width: 100%;
+        top: 46px;
+        position: absolute;
+    }
+    .show-menu nav{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin-left: 80px;
+        width: 100%;
+        padding: 1rem;
+        text-align: right;
+    }
+    nav ul li:last-child{
+        border-radius:50px;
+    }
+    .header-bottom-side{
+
+        flex-direction: column;
+        text-align: justify;
+        padding: 4rem;
+    }
+    .header-bottom-side-right img{
+        width: 380px;
+    }
+    .cols-3{
+       grid-template-columns: repeat(1, 1fr);
+       gap: 20px;
+      }
+    .cols-4{
+        grid-template-columns: repeat(2,1fr) ;
+        gap: 10px;
+    }
+    .product{
+        width: 150px;
+        margin: 25px 0;
+    }
+    .product-name, .product-price, .rate{
+        overflow: hidden;
+        font-size: 16px;
+    }
+    section .header-bottom-side{
+
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 4rem;
+    }
+    .comentarios{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .comment{
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+    .comment p:first-child{
+        font-size: 20pt;
+    }
+    .comment p{
+        font-size: 20pt;
+    }
+}
